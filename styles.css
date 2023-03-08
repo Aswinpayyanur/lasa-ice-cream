@@ -1,0 +1,157 @@
+*{ 
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/* header */
+header{
+    position: fixed;
+    width: 100%;
+    height: 94px;
+    background-color: black;
+    border-bottom: 1px solid #333;
+}
+.container{
+    display: flex;  
+    justify-content: space-between;
+    margin-left: 33px;
+    margin-right:33px ;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.container img{
+    width: 120px;
+    margin-right: 11px;
+    margin-top: 13px;
+}
+.container ul{
+    list-style-type:none;
+    color: white;
+    display: flex;
+    
+}
+ .nav{
+    display: flex;  
+    position:a;
+ }
+
+ .nav ul img{
+    width: 24px;
+    margin-left: 18px;
+ }
+ .nav-list-1{
+    padding-right: 20px;
+    font-weight: 100;
+ }
+ .nav-section{
+    font-size: 14px;
+    
+    padding-top: 22px;
+ }
+ .search-section{
+    padding-left: 0;
+ }
+ /* body */
+ .first-img {
+    width:100%;
+   
+
+ }
+ .first-img img{
+    margin-top: 94px;
+    width:100%;
+ }
+ 
+
+.first-row{
+    display: flex;
+}
+
+main-2 h1{
+    text-align: center;
+    font-size: 46px;
+    margin-top: 70px;
+}
+.first-row img{
+    width: 387px;
+    margin-left: 38px;
+}
+.first-row p{
+    text-align: center;
+}
+.second-row{
+    display: flex;
+}
+.second-row img{
+    width: 387px;
+    margin-left: 38px;
+}
+.second-row p{
+    text-align: center;
+}
+.second-img{
+    margin-top: 90px;
+    width: 100%;
+    margin-bottom: -5px;
+
+    
+}
+.third-img{
+    width: 100%;
+    margin-bottom: -5px;
+    
+}
+.footer-div{
+    display:flex;
+    background-color: black;
+    color: #be9509;
+    justify-content: space-between  ;
+    padding-left: 60px;
+    border-bottom: 1px solid #333;
+}
+
+.bottom-f-logo img{
+    width: 150px;
+    margin-top: 36px;
+}
+.footer-div p{
+    margin-top:0;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.footer-div h3{
+    font-size: 18px;
+}
+.bottom-s-logo img{
+    width: 150px;
+    margin-top: 36px;
+    margin-right: 100px;
+    
+}
+
+.botton-icons img{
+    width: 36px;
+    margin-right: 3px;
+    margin-top: 11px;
+}
+.bottom-end{
+    background-color: black;
+    color: #be9509;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-end p{
+    margin-top: 18px;
+    font-size: 14px;
+}
+.bottom-left{
+    padding-left: 46px;
+}
+.bottom-right{
+    padding-right: 22px;
+}
